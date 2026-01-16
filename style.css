@@ -44,9 +44,6 @@ section{
     border-radius: 5px;
     background: linear-gradient(to right,rgb(196, 196, 196),rgb(255, 255, 255));
 }
-.experience-area{
-
-}
 #full-stack{
      border-left: 7px solid;
     border-image: linear-gradient(180deg, rgb(0, 17, 255), rgb(17, 131, 197));
