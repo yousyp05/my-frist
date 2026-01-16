@@ -59,3 +59,15 @@ footer{
     color: rgb(0, 0, 0);
     font-size: 15px;
 }
+
+
+
+@media only screen and (max-width:600px){
+    .half-width{
+        width: 100%;
+        display: block;
+    }
+    section{
+        flex-direction: column;
+    }
+}
