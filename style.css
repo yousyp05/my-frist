@@ -18,7 +18,7 @@ p{
     color: dimgray;
 }
 .half-width{
-    width: 40%;
+    width: 45%;
     float: left;
     padding-left: 2%;
 }
@@ -26,8 +26,11 @@ p{
     width:100% ;
 }
 section{
-    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     padding-bottom: 150px;
+    height: auto;
 }
 .link-button{
     text-decoration: none;
@@ -64,10 +67,11 @@ footer{
 
 @media only screen and (max-width:600px){
     .half-width{
-        width: 100%;
-        display: block;
+        width: 90%;
+        margin-bottom: 20px;
     }
     section{
         flex-direction: column;
+        height: auto;
     }
 }
